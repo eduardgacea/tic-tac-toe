@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <script async defer src="index.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="modal" class="hidden">
+        <div id="modal-title"></div>
+        <div id="modal-content"></div>
+        <button id="modal-btn">Play Again</button>
+      </div>
+      <div id="backdrop" class="hidden"></div>
+      <div id="title">TIC-TAC-TOE</div>
+      <div id="draws">Draws: 0</div>
+      <div id="game-area">
+        <div id="player-1-area" class="player-area active">
+          <div class="player-title">PLAYER 1</div>
+          <div id="player-1-score" class="player-score">0</div>
+        </div>
+        <div id="board">
+          <div id="row-0" class="row">
+            <div id="cell-0-0" class="cell"></div>
+            <div id="cell-0-1" class="cell"></div>
+            <div id="cell-0-2" class="cell"></div>
+          </div>
+          <div id="row-1" class="row">
+            <div id="cell-1-0" class="cell"></div>
+            <div id="cell-1-1" class="cell"></div>
+            <div id="cell-1-2" class="cell"></div>
+          </div>
+          <div id="row-1" class="row">
+            <div id="cell-2-0" class="cell"></div>
+            <div id="cell-2-1" class="cell"></div>
+            <div id="cell-2-2" class="cell"></div>
+          </div>
+        </div>
+        <div id="player-2-area" class="player-area">
+          <div class="player-title">PLAYER 2</div>
+          <div id="player-2-score" class="player-score">0</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
